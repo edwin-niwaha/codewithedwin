@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Landing | Code with Edwin</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
+    <!-- CSS, Bootstrap-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        #more {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Responsive navbar-->
+    <!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark">-->
+    <nav class="navbar navbar-standard navbar-expand-lg fixed-top navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#!">Code with Edwin</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page header with logo and tagline-->
+    <header class="py-3 bg-light border-bottom mb-4">
+        <div class="container">
+            <div class="text-center my-5">
+                <h1 class="fw-bolder">“First, solve the problem. Then, write the code.” </h1>
+            </div>
+        </div>
+    </header>
+    <!-- Page content-->
+
+    <div class="py-3 bg-light border-bottom mb-4">
+        <div class="row">
+            <div class="col">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="5000">
+                            <img src="./assets/1.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 style="color: white; font-size:xx-large">In order to be irreplaceable, one must
+                                    always be different</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="./assets/2.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 style="color: white; font-size:xx-large">“Before software can be reusable it first
+                                    has to be usable.”</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img src="./assets/3.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 style="color: blue; font-size:xx-large">“Make it work, make it right, make it fast.”
+                                    – Kent Beck</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <!-- Blog entries-->
+            <div class="col-lg-8">
+                <!-- Featured blog post-->
+                <div class="card mb-4">
+                    <a href="#!"><img class="card-img-top" src="./assets/edwin22.png" alt="..." /></a>
+                    <div class="card-body">
+                        <div class="small text-muted">July 10, 2022</div>
+                        <h2 class="card-title">Transforming our society through ICT</h2>
+                        <p class="card-text">
+                        <p>
+                            My name is <b>Edwin Niwaha</b>, I am passionate about programming because-
+                            It’s fun to build things! But you’re building things not from physical objects but from your
+                            mind! The things you build are digital, and because
+                            <span id="dots">...</span><span id="more">
+                                they’re digital, they’re also infinitely malleable. You can shape – and reshape! – them
+                                any way you like. It’s really nice when things come together to form a useful product or
+                                tool. It provides a great sense of accomplishment and personal pride. Programming is
+                                empowering. </span>
+                        </p>
+                        <button class="btn btn-primary" onclick="myFunction()" id="myBtn">Read more →</button>
+                    </div>
+                </div>
+
+                <!-- Nested row for non-featured blog posts-->
+                <div class="row">
+                    <div class="col-lg-6">
+                        <!-- Blog post-->
+                        <div class="card mb-4">
+                            <a href="#!"><img class="card-img-top" src="./assets/e2.jpg" alt="..." /></a>
+                            <div class="card-body">
+                                <div class="small text-muted"></div>
+                                <h2 class="card-title h4">First solve the problem</h2>
+                                <p class="card-text">Most programmers when assigned any project, they begin by writing
+                                    the coding
+                                    before understanding the problem presented to them, that's why most IT projects
+                                    fail...
+                                <p><b>Get a notebook:</b></p>
+                                Programming is all about helping someone. Write down what your customer is saying or
+                                record what they say or do. before you code.</p>
+                                <a class="btn btn-primary" href="#!">Read more →</a>
+                            </div>
+                        </div>
+                        <!-- Blog post-->
+                    </div>
+                    <div class="col-lg-6">
+                        <!-- Blog post-->
+                        <div class="card mb-4">
+                            <a href="#!"><img class="card-img-top" src="./assets/easy1.png" alt="..." /></a>
+                            <div class="card-body">
+                                <div class="small text-muted"></div>
+                                <h2 class="card-title h4">Why do I feel like I can't?</h2>
+                                <p>Programming is a very intensive, abstract and complex task,
+                                    requiring several years for you to say
+                                    ‘that I’m good at it’. I have a bachelors in Information Technology and
+                                    some years in the IT the sector and just recently I started to think myself to be a
+                                    ‘good
+                                    programmer’. So, I suggest to you keep learning and trying, it is a very hard
+                                    skill do learn but one of the most valuable on 21st century.</p>
+                                <a class="btn btn-primary" href="#!">Read more →</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pagination-->
+            </div>
+            <!-- Side widgets-->
+            <div class="col-lg-4">
+                <!-- Categories widget-->
+                <div class="card mb-4">
+                    <div class="card-header">Featured Posts</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <ul class="list-unstyled mb-0">
+                                    <li><a target=”_blank”
+                                            href="https://www.hp.com/us-en/shop/tech-takes/how-does-the-internet-work#:~:text=It%20works%20by%20using%20a,where%20you're%20using%20it.">How
+                                            Internet works</a></li>
+                                    <li><a target=”_blank” href="https://www.w3schools.com/html/default.asp">HTML
+                                            Tutorial</a></li>
+                                    <li><a target=”_blank” href="https://www.w3schools.com/css/default.asp">CSS
+                                            Tutorial</a></li>
+                                    <li><a target=”_blank”
+                                            href="https://www.w3schools.com/bootstrap5/index.php">Bootstrap 5
+                                            Tutorial</a></li>
+                                    <li><a target=”_blank” href="https://www.w3schools.com/js/default.asp">JavaScript
+                                            Tutorial</a></li>
+                                    <li><a target=”_blank” href="#!">Git & GitHub</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Side widget-->
+                <div class="card mb-4">
+                    <div class="card-header">Important notice</div>
+                    <div class="card-body">If you are interested in learning, you can follow the links listed
+                        above to access the online tutorials.</div>
+                    <div class="card-body">
+                        <p>“The more that you read, the more things you will know.”</p>
+                    </div>
+                    <div class="card-body">
+                        <p>“I am always doing that which I cannot do, in order that I may learn how to do it.”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer-->
+    <footer class="py-5 bg-primary">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; www.codewithedwin 2022</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
+</body>
+
+</html>
